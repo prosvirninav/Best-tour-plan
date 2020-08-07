@@ -333,8 +333,6 @@ template { display: none; }
 
 .footer__item--mb-2 { margin-bottom: 20px; }
 
-.footer__item-email { color: #BDBDBD; text-decoration: none; }
-
 .footer__icon-wrapper { min-width: 40px; }
 
 .footer__text { color: #BDBDBD; margin-bottom: 20px; }
@@ -383,9 +381,9 @@ template { display: none; }
 
 .modal__link { position: absolute; right: 18px; top: 17px; text-decoration: none; cursor: pointer; }
 
-.modal .close { position: absolute; right: 18px; top: 17px; text-decoration: none; cursor: pointer; }
+.close { position: absolute; right: 18px; top: 17px; text-decoration: none; cursor: pointer; }
 
-.modal .close__button { background-color: #0A223D; border: none; outline: 0; cursor: pointer; }
+.close__button { background-color: #0A223D; border: none; outline: 0; cursor: pointer; }
 
 @media (max-width: 1200px) { .container { max-width: 960px; }
   .hotel-slider { width: 590px; }
