@@ -23,14 +23,13 @@ $(document).ready(function () {
 
   var menuButton = document.querySelector(".menu-button");
   menuButton.addEventListener("click", function () {
-    console.log(".клик по кнопке меню");
     document
       .querySelector(".navbar-bottom")
-      .classList.toggle("navbar-bottom--visible");
+      .classList.toggle("navbar-baottom--visible");
   });
 
   var modalButton = $('[data-toggle="modal"]');
-  var closeModalButton = $('.modal-button__close');
+  var closeModalButton = $('.close');
   modalButton.on("click", openModal);
   closeModalButton.on("click", closeModal);
 
@@ -61,8 +60,9 @@ $(document).ready(function () {
           required: "We need your email address to contact you",
           email: "Your email address must be in the format of name@domain.com"
         },
-        phone: {
-          required: "Phone is required"
+        tel: {
+          required: "Phone is required",
+          minlength: "Longer than 7 symbol"
         },
       },
     });

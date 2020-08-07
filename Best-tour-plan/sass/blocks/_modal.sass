@@ -43,13 +43,7 @@
     transition: opacity 0.2s
     &--visible
       visibility: visible
-      opacity: 1
-  &__close
-    position: absolute
-    right: 18px
-    top: 17px
-    text-decoration: none
-    cursor: pointer
+      opacity: 1  
   &__input
     width: 100%
     margin-top: 15px
@@ -65,9 +59,21 @@
     font-size: 12px
     line-height: 15px
     color: #E0E0E0
-  &-button
-    &__close
-      background-color: inherit
+    margin-top: 13px
+  &__link
+    position: absolute
+    right: 18px
+    top: 17px
+    text-decoration: none
+    cursor: pointer
+  .close
+    position: absolute
+    right: 18px
+    top: 17px
+    text-decoration: none
+    cursor: pointer
+    &__button
+      background-color: $dark
       border: none
       outline: 0
       cursor: pointer
