@@ -377,7 +377,7 @@ template { display: none; }
 
 .modal__info { font-style: normal; font-weight: bold; font-size: 12px; line-height: 15px; color: #E0E0E0; }
 
-.modal-button__close { background-color: inherit; border: none; outline: 0; }
+.modal-button__close { background-color: inherit; border: none; outline: 0; cursor: pointer; }
 
 @media (max-width: 1200px) { .container { max-width: 960px; }
   .hotel-slider { width: 590px; }
